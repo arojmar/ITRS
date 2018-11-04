@@ -1,4 +1,4 @@
-@SupportPageLinks
+@SupportPageLinks @ToTest
 Feature: All the links displayed in the support page are working properly
 
   #An approach just for categories links, in this case we already know what is the correspondent Link
