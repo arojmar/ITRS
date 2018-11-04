@@ -48,29 +48,28 @@ public class SupportPageLinksPage extends PageObject {
 
     public void clickOnSectionLink(String section) {
 
-        List<WebElement> linksToBeClicked = new ArrayList<>();
+        List<WebElementFacade> linksToBeClicked = new ArrayList<>();
 
         switch (section) {
             case "categorie blocks":
-                linksToBeClicked = getDriver().findElements(By.cssSelector("body > main > div > section.section.knowledge-base > section.categories.blocks a"));
+                linksToBeClicked = findAll("body > main > div > section.section.knowledge-base > section.categories.blocks a");
                 break;
             case "articles":
-                linksToBeClicked = getDriver().findElements(By.cssSelector("body > main > div > section.section.knowledge-base > section.articles a"));
+                linksToBeClicked = findAll("body > main > div > section.section.knowledge-base > section.articles a");
                 break;
             case "activity":
-                linksToBeClicked = getDriver().findElements(By.cssSelector("body > main > div > section.section.activity > div > div a"));
+                linksToBeClicked = findAll("body > main > div > section.section.activity > div > div a");
                 break;
             default:
                 fail("The section doesn't exists.");
                 break;
         }
-
         ArrayList<String> currentListURLs = new ArrayList<>();
         ArrayList<String> clickedListURLs = new ArrayList<>();
         Actions newWindow = new Actions(getDriver());
         String parentWindow = getDriver().getWindowHandle();
 
-        for(WebElement elementOfList : linksToBeClicked) {
+        for(WebElementFacade elementOfList : linksToBeClicked) {
             currentListURLs.add(elementOfList.getAttribute("href"));
             newWindow.keyDown(Keys.SHIFT).click(elementOfList).keyUp(Keys.SHIFT).build().perform();
             clickedListURLs.add(getDriver().getCurrentUrl());
