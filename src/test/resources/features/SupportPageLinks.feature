@@ -1,4 +1,4 @@
-@SupportPageLinks @ToTest
+@SupportPageLinks @ToTest1
 Feature: All the links displayed in the support page are working properly
 
   @CategoriesLinks
@@ -14,7 +14,7 @@ Feature: All the links displayed in the support page are working properly
       | Geneos Plugin Help | /hc/en-us/categories/115000687205-Geneos-Plugin-Help |
       | User Guides        | /hc/en-us/categories/115000287873-User-Guides        |
 
-  @AllLinks
+  @AllLinks @ToTest
   Scenario Outline: The links displayed in the Promoted articles section are working properly
     Given the support page is loaded and it is correctly displayed
     When each of the "<Section>" links are clicked
