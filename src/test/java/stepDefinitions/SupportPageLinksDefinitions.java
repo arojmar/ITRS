@@ -34,8 +34,8 @@ public class SupportPageLinksDefinitions {
         supportPageLinksSteps.clickOnLinks(section);
     }
 
-    @Then("^the \"([^\"]*)\" pages is displayed correctly$")
-    public void thePagesIsDisplayedCorrectly(String section)   {
+    @Then("^the \"([^\"]*)\" opend pages corresponds with the URL in the links clicked$")
+    public void theOpendPagesCorrespondsWithTheURLInTheLinksClicked(String section)   {
         supportPageLinksSteps.areLinksOfSectionDisplayedCorrectly(section);
     }
 }

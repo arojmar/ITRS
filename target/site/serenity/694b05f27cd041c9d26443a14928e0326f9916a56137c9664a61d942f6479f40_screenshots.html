@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Shop ui tests</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="eb80beced24604061439d0affe62678af440d8fbd03532607db5274ab34e3471.html">All The Links Displayed In The Support Page Are Working Properly</a></span>
+                > <span class="truncate-60"><a
+                    href="694b05f27cd041c9d26443a14928e0326f9916a56137c9664a61d942f6479f40.html">The links displayed in the Promoted articles section are working properly </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-11-2018 17:33</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">All The Links Displayed In The Support Page Are Working Properly </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="f7990853163eb9fee210aee83ebcf00d3f88d5fef9202188e03c35c502c5657a.html">Alllinks
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="423464881e00ccab982dad34d0780ad0d43d9d13aac8c9b67587f9071e48ea43.html">Supportpagelinks
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="882d22f2b73e5b8e3824d2a74188890451e77e3d44a53e88ea0bb62c1ab46525.html">Totest
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">The links displayed in the Promoted articles section are working properly
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given the support page is loaded and it is correctly displayed<br>When each of the "&lt;Section&gt;" links are clicked<br>Then the "&lt;Section&gt;" opend pages corresponds with the URL in the links clicked</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="9c56dc2e4e760aa276963ed0e5d32a41435051158ce420a0e98f986465935c92.png" title="The links displayed in the Promoted articles section are working properly #1: {Section=categorie blocks}" width="1911"/>
+                <img src="a07268e96da0802acb67abf0245ee7706a130d323a0cd184e400c7595045adeb.png" title="Given the support page is loaded and it is correctly displayed" width="1911"/>
+                <img src="bab26fca51d1fff9e7acad20e60e0dd991203fbdcb9eb9bd411fffef6d46ee06.png" title="When each of the &quot;categorie blocks&quot; links are clicked" width="1911"/>
+                <img src="50ff90751cd4ad898455bcebca064bfdccb8ee582c76f1115877565243a1ec8e.png" title="When each of the &quot;categorie blocks&quot; links are clicked" width="1911"/>
+                <img src="50ff90751cd4ad898455bcebca064bfdccb8ee582c76f1115877565243a1ec8e.png" title="Then the &quot;categorie blocks&quot; opend pages corresponds with the URL in the links clicked" width="1911"/>
+                <img src="984ec81fdce588a90ae543816741453f5277a57247a61d3ca695722f7b469570.png" title="Then the &quot;categorie blocks&quot; opend pages corresponds with the URL in the links clicked" width="1911"/>
+                <img src="121684ea5974beeadb7dca15def987c4ffc69512d71a79ce15c665595ede3e10.png" title="The links displayed in the Promoted articles section are working properly #2: {Section=articles}" width="1911"/>
+                <img src="bab26fca51d1fff9e7acad20e60e0dd991203fbdcb9eb9bd411fffef6d46ee06.png" title="Given the support page is loaded and it is correctly displayed" width="1911"/>
+                <img src="bab26fca51d1fff9e7acad20e60e0dd991203fbdcb9eb9bd411fffef6d46ee06.png" title="When each of the &quot;articles&quot; links are clicked" width="1911"/>
+                <img src="421151642850bf92d9a0dc419ddc41aacbc698fed46fc666607f9d16a2dfd284.png" title="When each of the &quot;articles&quot; links are clicked" width="1911"/>
+                <img src="24340985061a7b81213704cc349f107deeea04290ea494a321c2e9fbdf31de27.png" title="Then the &quot;articles&quot; opend pages corresponds with the URL in the links clicked" width="1911"/>
+                <img src="121684ea5974beeadb7dca15def987c4ffc69512d71a79ce15c665595ede3e10.png" title="Then the &quot;articles&quot; opend pages corresponds with the URL in the links clicked" width="1911"/>
+                <img src="24b44c0e55e7d0a5d6369e597c0a97ddb8fd5b5ff5c7ba35500123cb36b24664.png" title="The links displayed in the Promoted articles section are working properly #3: {Section=activity}" width="1911"/>
+                <img src="25dcd836f01b2927b2623892dbf71f3e6ee98fa34ddb5a20bed2c86fb32122c6.png" title="Given the support page is loaded and it is correctly displayed" width="1911"/>
+                <img src="25dcd836f01b2927b2623892dbf71f3e6ee98fa34ddb5a20bed2c86fb32122c6.png" title="When each of the &quot;activity&quot; links are clicked" width="1911"/>
+                <img src="e2718c9a52d48db285c67993c7b7c6e0f6f5c5ebb9091ba833bbb491c7a294d6.png" title="When each of the &quot;activity&quot; links are clicked" width="1911"/>
+                <img src="e2718c9a52d48db285c67993c7b7c6e0f6f5c5ebb9091ba833bbb491c7a294d6.png" title="Then the &quot;activity&quot; opend pages corresponds with the URL in the links clicked" width="1911"/>
+                <img src="a07268e96da0802acb67abf0245ee7706a130d323a0cd184e400c7595045adeb.png" title="Then the &quot;activity&quot; opend pages corresponds with the URL in the links clicked: <span class='success-color'>SUCCESS</span>" width="1911"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

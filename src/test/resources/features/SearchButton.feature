@@ -1,4 +1,4 @@
-@SearchButton @ToTest1
+@SearchButton
 Feature: A user want to search information in the search button in the main page
   @Displayed
   Scenario: A user access to the ITRS Group main page and select the search button

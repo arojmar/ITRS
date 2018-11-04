@@ -1,6 +1,7 @@
-@SupportPageLinks @ToTest1
+@SupportPageLinks
 Feature: All the links displayed in the support page are working properly
 
+  #An approach just for categories links, in this case we already know what is the correspondent Link
   @CategoriesLinks
   Scenario Outline: The links displayed in the categories blocks section are working properly
     Given the support page is loaded and it is correctly displayed
@@ -14,11 +15,12 @@ Feature: All the links displayed in the support page are working properly
       | Geneos Plugin Help | /hc/en-us/categories/115000687205-Geneos-Plugin-Help |
       | User Guides        | /hc/en-us/categories/115000287873-User-Guides        |
 
-  @AllLinks @ToTest
+  #This approach is for getting tested all the links for each of the sections (in just one Outline scenario)
+  @AllLinks
   Scenario Outline: The links displayed in the Promoted articles section are working properly
     Given the support page is loaded and it is correctly displayed
     When each of the "<Section>" links are clicked
-    Then the "<Section>" pages is displayed correctly
+    Then the "<Section>" opend pages corresponds with the URL in the links clicked
 
     Examples:
       | Section          |

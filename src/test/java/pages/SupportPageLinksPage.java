@@ -6,7 +6,6 @@ import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 import java.util.ArrayList;
@@ -65,18 +64,16 @@ public class SupportPageLinksPage extends PageObject {
                 break;
         }
         ArrayList<String> currentListURLs = new ArrayList<>();
-        ArrayList<String> clickedListURLs = new ArrayList<>();
         Actions newWindow = new Actions(getDriver());
         String parentWindow = getDriver().getWindowHandle();
 
         for(WebElementFacade elementOfList : linksToBeClicked) {
             currentListURLs.add(elementOfList.getAttribute("href"));
             newWindow.keyDown(Keys.SHIFT).click(elementOfList).keyUp(Keys.SHIFT).build().perform();
-            clickedListURLs.add(getDriver().getCurrentUrl());
             getDriver().switchTo().window(parentWindow);
         }
         Serenity.setSessionVariable("CURRENT_LIST_URL_"+section).to(currentListURLs);
-        Serenity.setSessionVariable("CLICKED_LIST_URL_"+section).to(currentListURLs);
+
     }
 
     public void assertIfURLopenIsCorrect(String linkUrl) {
@@ -86,6 +83,16 @@ public class SupportPageLinksPage extends PageObject {
     }
 
     public void assertLinksDisplayedCorrectly(String section) {
+
+        ArrayList<String> currentListURLs = Serenity.sessionVariableCalled("CURRENT_LIST_URL_"+section);
+        ArrayList<String> clickedListURLs = new ArrayList<>();
+
+        for(String urlStored : currentListURLs) {
+            getDriver().navigate().to(urlStored);
+            clickedListURLs.add(getDriver().getCurrentUrl());
+        }
+        Serenity.setSessionVariable("CLICKED_LIST_URL_"+section).to(clickedListURLs);
+
         assertThat(
                 "The URL link is the same as in the a href",
                 Serenity.sessionVariableCalled("CURRENT_LIST_URL_"+section).toString(),
