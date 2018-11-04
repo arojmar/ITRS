@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af7027b4-2a9c-4480-9b2d-0328f27e1ef4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/GeneosLinksPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/serenitySteps/GeneosLinksSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/GeneosLinksDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/GeneosLinks.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SearchButtonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SearchButtonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/GeneosLinksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/GeneosLinksPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/SupportPageLinksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SupportPageLinksPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/serenitySteps/SearchButtonSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/serenitySteps/SearchButtonSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SearchButtonDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SearchButtonDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/serenitySteps/GeneosLinksSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/serenitySteps/GeneosLinksSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/serenitySteps/SupportPageLinksSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/serenitySteps/SupportPageLinksSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/GeneosLinksDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/GeneosLinksDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SupportPageLinksDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SupportPageLinksDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/SearchButton.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SearchButton.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/SupportPageLinks.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SupportPageLinks.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/GeneosLinks.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/GeneosLinks.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,18 +35,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="feature" value="2696" />
-          <entry key="java" value="8084" />
+          <entry key="feature" value="2697" />
+          <entry key="java" value="8505" />
           <entry key="properties" value="19" />
-          <entry key="txt" value="488" />
+          <entry key="txt" value="557" />
           <entry key="xml" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="2696" />
-          <entry key="JAVA" value="8084" />
-          <entry key="PLAIN_TEXT" value="498" />
+          <entry key="Cucumber" value="2697" />
+          <entry key="JAVA" value="8505" />
+          <entry key="PLAIN_TEXT" value="567" />
           <entry key="Properties" value="19" />
           <entry key="XML" value="39" />
         </counts>
@@ -58,8 +54,8 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="8" />
-          <entry key="feature" value="9" />
-          <entry key="java" value="26" />
+          <entry key="feature" value="10" />
+          <entry key="java" value="35" />
           <entry key="properties" value="2" />
           <entry key="xml" value="1" />
         </counts>
@@ -67,8 +63,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="8" />
-          <entry key="Cucumber" value="9" />
-          <entry key="JAVA" value="26" />
+          <entry key="Cucumber" value="10" />
+          <entry key="JAVA" value="35" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="1" />
         </counts>
@@ -80,38 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/GeneosLinks.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/SearchButtonDefinitions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/serenitySteps/SearchButtonSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#606#607#0" expanded="true" />
-                <element signature="e#786#787#0" expanded="true" />
-                <element signature="e#847#848#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -119,10 +85,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/GeneosLinksDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="14" column="58" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="58" />
+            <state relative-caret-position="322">
+              <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#695#696#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,27 +99,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/serenitySteps/GeneosLinksSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="291">
+              <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#207#208#0" expanded="true" />
                 <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/SupportPageLinksPage.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/GeneosLinksPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="91" column="61" selection-start-line="91" selection-start-column="61" selection-end-line="91" selection-end-column="61" />
+            <state relative-caret-position="170">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1128#1129#0" expanded="true" />
-                <element signature="e#1178#1179#0" expanded="true" />
-                <marker date="1541355402438" expanded="true" signature="655:807" ph="..." />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,45 +137,6 @@
               <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/GeneosLinksPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/SupportPageLinksDefinitions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1088#1089#0" expanded="true" />
-                <element signature="e#1147#1148#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/serenitySteps/SupportPageLinksSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#1559#1560#0" expanded="true" />
-                <element signature="e#1628#1629#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -231,27 +165,28 @@
         <option value="$PROJECT_DIR$/src/test/java/testRunners/testRunner.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/serenity.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/serenitySteps/SupportPageLinksSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/GeneosLinksPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/serenitySteps/GeneosPageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/GeneosPageDefinitions.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/GeneosLinksDefinitions.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/SupportPageLinks.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/GeneosLinks.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/SearchButton.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/SupportPageLinksDefinitions.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/SearchButtonDefinitions.java" />
         <option value="$PROJECT_DIR$/src/test/java/serenitySteps/SearchButtonSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/serenitySteps/GeneosLinksSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/SupportPageLinksPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/SearchButtonPage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/GeneosLinks.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/GeneosLinksDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/serenitySteps/GeneosLinksSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/serenitySteps/SupportPageLinksSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/GeneosLinksPage.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="25" />
+    <option name="x" value="-711" />
+    <option name="y" value="27" />
     <option name="width" value="1600" />
-    <option name="height" value="836" />
+    <option name="height" value="423" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -332,7 +267,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541355091846" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541356679991" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/stepDefinitions" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -456,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541349708407</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Structure created for Case 3 and reformatted the code">
+      <created>1541355460934</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1541355460934</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -502,8 +444,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="836" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.26576576" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.26576576" />
       <window_info id="Structure" order="1" sideWeight="0.502" side_tool="true" weight="0.26576576" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -519,7 +462,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32892805" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.2966226" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.2966226" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3274596" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -571,7 +514,8 @@
     <MESSAGE value="Refactor of SupportPageLinksPage using WebElementFacades instead of WebElements" />
     <MESSAGE value="Refactor of SupportPageLinksPage using WebElementFacades instead of WebElements part 2" />
     <MESSAGE value="Added checking of the URLs are correct in comparision of Url contained in the links of SupportPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added checking of the URLs are correct in comparision of Url contained in the links of SupportPage" />
+    <MESSAGE value="Structure created for Case 3 and reformatted the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Structure created for Case 3 and reformatted the code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -735,25 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/GeneosLinks.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/SupportPageLinksDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1147#1148#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/SearchButtonDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -764,20 +689,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/GeneosLinksDefinitions.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/GeneosLinks.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="14" column="58" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="58" />
+        <state relative-caret-position="136">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/serenitySteps/SearchButtonSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/GeneosLinksDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/SupportPageLinksDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/serenitySteps/SupportPageLinksSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        <state relative-caret-position="260">
+          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#416#417#0" expanded="true" />
@@ -788,43 +746,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/serenitySteps/SearchButtonSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/serenitySteps/GeneosLinksSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/SupportPageLinksPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="91" column="61" selection-start-line="91" selection-start-column="61" selection-end-line="91" selection-end-column="61" />
+        <state relative-caret-position="515">
+          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1128#1129#0" expanded="true" />
             <element signature="e#1178#1179#0" expanded="true" />
-            <marker date="1541355402438" expanded="true" signature="655:807" ph="..." />
+            <marker date="1541356344041" expanded="true" signature="655:807" ph="..." />
           </folding>
         </state>
       </provider>
@@ -839,10 +769,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/serenitySteps/GeneosLinksSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/GeneosLinksPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="170">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

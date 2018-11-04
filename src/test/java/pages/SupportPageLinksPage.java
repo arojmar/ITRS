@@ -82,7 +82,7 @@ public class SupportPageLinksPage extends PageObject {
         getDriver().navigate().back();
     }
 
-    public void assertLinksDisplayedCorrectly(String section) {
+    public void assertLinksAreWorkingCorrectly(String section) {
 
         ArrayList<String> currentListURLs = Serenity.sessionVariableCalled("CURRENT_LIST_URL_" + section);
         ArrayList<String> clickedListURLs = new ArrayList<>();

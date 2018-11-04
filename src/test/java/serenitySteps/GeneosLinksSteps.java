@@ -10,10 +10,18 @@ public class GeneosLinksSteps extends ScenarioSteps {
     }
 
     public void loadGeneosPage() {
-
+        getGeneosLinksPage().loadGeneosPage();
     }
 
     public void isGeneosPageDisplayedCorrectly() {
+        getGeneosLinksPage().assertGeneosPageIsDisplayedCorrectly();
+    }
 
+    public void clickInAllGeneosLinks() {
+        getGeneosLinksPage().clickInAllLinks();
+    }
+
+    public void areAllTheLinksInGeneosPageWorkingCorrectly() {
+        getGeneosLinksPage().assertAllLinksClickedAreWorkingCorrectly();
     }
 }

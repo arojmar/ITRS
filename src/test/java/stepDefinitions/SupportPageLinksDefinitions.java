@@ -36,7 +36,7 @@ public class SupportPageLinksDefinitions {
 
     @Then("^the \"([^\"]*)\" opend pages corresponds with the URL in the links clicked$")
     public void theOpendPagesCorrespondsWithTheURLInTheLinksClicked(String section) {
-        supportPageLinksSteps.areLinksOfSectionDisplayedCorrectly(section);
+        supportPageLinksSteps.areLinksOfSectionWorkingCorrectly(section);
     }
 }
 

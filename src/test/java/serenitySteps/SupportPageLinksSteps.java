@@ -50,7 +50,7 @@ public class SupportPageLinksSteps {
         getSupportPageLinksPage().clickOnSectionLink(section);
     }
 
-    public void areLinksOfSectionDisplayedCorrectly(String section) {
-        getSupportPageLinksPage().assertLinksDisplayedCorrectly(section);
+    public void areLinksOfSectionWorkingCorrectly(String section) {
+        getSupportPageLinksPage().assertLinksAreWorkingCorrectly(section);
     }
 }
