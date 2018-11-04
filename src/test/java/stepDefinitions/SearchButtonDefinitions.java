@@ -10,7 +10,7 @@ import serenitySteps.SearchButtonSteps;
 public class SearchButtonDefinitions {
 
     @Steps
-    SearchButtonSteps searchButtonSteps;
+    private SearchButtonSteps searchButtonSteps;
 
 
     @Given("^a user accesses to the main ITRS page$")
@@ -25,7 +25,7 @@ public class SearchButtonDefinitions {
 
     @Then("^the searching bar is displayed$")
     public void theSearchingBarIsDisplayed() {
-        searchButtonSteps.searchBarIsDisplayed();
+         searchButtonSteps.searchBarIsDisplayed();
     }
 
     @Then("^user types the word \"([^\"]*)\" in the searching bar$")

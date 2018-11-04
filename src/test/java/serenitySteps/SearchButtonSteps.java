@@ -18,14 +18,14 @@ public class SearchButtonSteps extends ScenarioSteps {
     }
 
     public void searchBarIsDisplayed() {
-
+        getSearchButtonPage().isSearchBarDisplayed();
     }
 
     public void typeWordInSearchingBar(String wordToSearch) {
-
+        getSearchButtonPage().typeWordinSearchingBar(wordToSearch);
     }
 
     public void resultPageIsDisplayed() {
-
+        getSearchButtonPage().isResultPageDisplayed();
     }
 }
