@@ -25,7 +25,7 @@ public class SearchButtonDefinitions {
 
     @Then("^the searching bar is displayed$")
     public void theSearchingBarIsDisplayed() {
-         searchButtonSteps.searchBarIsDisplayed();
+        searchButtonSteps.searchBarIsDisplayed();
     }
 
     @Then("^user types the word \"([^\"]*)\" in the searching bar$")

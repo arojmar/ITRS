@@ -17,7 +17,7 @@ Feature: All the links displayed in the support page are working properly
 
   #This approach is for getting tested all the links for each of the sections (in just one Outline scenario)
   @AllLinks
-  Scenario Outline: The links displayed in the Promoted articles section are working properly
+  Scenario Outline: The links displayed in the section are working properly
     Given the support page is loaded and it is correctly displayed
     When each of the "<Section>" links are clicked
     Then the "<Section>" opend pages corresponds with the URL in the links clicked

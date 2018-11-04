@@ -9,16 +9,16 @@ import static org.hamcrest.core.Is.is;
 
 public class SearchButtonPage extends PageObject {
 
-    @FindBy(css="body > div.cookie-compliance.clearfix > div > button")
+    @FindBy(css = "body > div.cookie-compliance.clearfix > div > button")
     private WebElementFacade cookiesButton;
 
-    @FindBy(xpath="//*[@id='block-itrsgroup-com-main-menu']/ul/li[7]/div")
+    @FindBy(xpath = "//*[@id='block-itrsgroup-com-main-menu']/ul/li[7]/div")
     private WebElementFacade searchButton;
 
-    @FindBy(css="[id='block-algolia-search-search-top'] .algolia-search-autocomplete")
+    @FindBy(css = "[id='block-algolia-search-search-top'] .algolia-search-autocomplete")
     private WebElementFacade topBar;
 
-    @FindBy(className="search-results")
+    @FindBy(className = "search-results")
     private WebElementFacade resultPage;
 
 

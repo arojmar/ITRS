@@ -5,7 +5,9 @@ import pages.SearchButtonPage;
 
 public class SearchButtonSteps extends ScenarioSteps {
 
-    private SearchButtonPage getSearchButtonPage() { return getPages().get(SearchButtonPage.class);}
+    private SearchButtonPage getSearchButtonPage() {
+        return getPages().get(SearchButtonPage.class);
+    }
 
 
     public void userAccessToITRSPage() {

@@ -19,21 +19,21 @@ public class SupportPageLinksPage extends PageObject {
 
     private static final String baseUrl = "https://support.itrsgroup.com";
 
-    @FindBy(css="body > main > div > section.section.knowledge-base > section.categories.blocks > ul")
+    @FindBy(css = "body > main > div > section.section.knowledge-base > section.categories.blocks > ul")
     private WebElementFacade categoriesSection;
 
-    @FindBy(css="body > main > div > section.section.knowledge-base > section.articles > ul > li")
+    @FindBy(css = "body > main > div > section.section.knowledge-base > section.articles > ul > li")
     private WebElementFacade articlesSection;
 
-    @FindBy(css="body > main > div > section.section.activity > div > div > ul")
+    @FindBy(css = "body > main > div > section.section.activity > div > div > ul")
     private WebElementFacade recentActivitySection;
 
 
-    public void loadSupportPage(){
+    public void loadSupportPage() {
         getDriver().navigate().to(baseUrl);
     }
 
-    public void assertSupportPageIsDisplayedCorrectly(){
+    public void assertSupportPageIsDisplayedCorrectly() {
         assertThat("The support page title is correct", getDriver().getTitle(), is("ITRS"));
         assertThat("The categories section is displayed", categoriesSection.isDisplayed(), is(true));
         assertThat("The promoted articles section is displayed", articlesSection.isDisplayed(), is(true));
@@ -67,36 +67,36 @@ public class SupportPageLinksPage extends PageObject {
         Actions newWindow = new Actions(getDriver());
         String parentWindow = getDriver().getWindowHandle();
 
-        for(WebElementFacade elementOfList : linksToBeClicked) {
+        for (WebElementFacade elementOfList : linksToBeClicked) {
             currentListURLs.add(elementOfList.getAttribute("href"));
             newWindow.keyDown(Keys.SHIFT).click(elementOfList).keyUp(Keys.SHIFT).build().perform();
             getDriver().switchTo().window(parentWindow);
         }
-        Serenity.setSessionVariable("CURRENT_LIST_URL_"+section).to(currentListURLs);
+        Serenity.setSessionVariable("CURRENT_LIST_URL_" + section).to(currentListURLs);
 
     }
 
     public void assertIfURLopenIsCorrect(String linkUrl) {
         String linkName = Serenity.sessionVariableCalled("LINK_NAME");
-        assertThat("The URL for "+linkName+" is correct", getDriver().getCurrentUrl() ,is(baseUrl+linkUrl));
+        assertThat("The URL for " + linkName + " is correct", getDriver().getCurrentUrl(), is(baseUrl + linkUrl));
         getDriver().navigate().back();
     }
 
     public void assertLinksDisplayedCorrectly(String section) {
 
-        ArrayList<String> currentListURLs = Serenity.sessionVariableCalled("CURRENT_LIST_URL_"+section);
+        ArrayList<String> currentListURLs = Serenity.sessionVariableCalled("CURRENT_LIST_URL_" + section);
         ArrayList<String> clickedListURLs = new ArrayList<>();
 
-        for(String urlStored : currentListURLs) {
+        for (String urlStored : currentListURLs) {
             getDriver().navigate().to(urlStored);
             clickedListURLs.add(getDriver().getCurrentUrl());
         }
-        Serenity.setSessionVariable("CLICKED_LIST_URL_"+section).to(clickedListURLs);
+        Serenity.setSessionVariable("CLICKED_LIST_URL_" + section).to(clickedListURLs);
 
         assertThat(
                 "The URL link is the same as in the a href",
-                Serenity.sessionVariableCalled("CURRENT_LIST_URL_"+section).toString(),
-                is(Serenity.sessionVariableCalled("CLICKED_LIST_URL_"+section).toString())
+                Serenity.sessionVariableCalled("CURRENT_LIST_URL_" + section).toString(),
+                is(Serenity.sessionVariableCalled("CLICKED_LIST_URL_" + section).toString())
         );
     }
 }
