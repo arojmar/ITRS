@@ -14,6 +14,9 @@ When it is already added, just run the test.
 Please define the needed test-cases to verify that the search is working as expected:
 - Using Selenium, please automate the tests
 - Produce an report with the test execution status.
+  - To check the report, please browse to /target/size/serenity/report.html
+  - To check the screenshots, please browse to /target/size/serenity/report_screenshots.html
+  
 
 ## Case 2
 ### Tasks:
