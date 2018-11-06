@@ -1,4 +1,4 @@
-@SearchButton @ToTest
+@SearchButton @ToTest2
 Feature: A user want to search information in the search button in the main page
 
   @Displayed
