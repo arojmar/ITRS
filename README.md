@@ -1,4 +1,4 @@
-# Welcome to the ITRS!
+# Welcome to the ITRS exercises!
 
 For testing, you need to download the google chrome driver <a href="http://chromedriver.chromium.org/downloads">here. </a>
 
